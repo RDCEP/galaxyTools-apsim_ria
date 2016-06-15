@@ -66,12 +66,6 @@ source $UTIL_DIR/prepareCulFiles.sh "APSIM"
 # Run QuadUI
 cd $THISDIR/result/$batchId
 source $UTIL_DIR/runAPSIM2ACMO.sh $batchId
-#if [ $? -eq 0 ]; then
-#    echo "runAPSIM2ACMO.sh OK"
-#else
-#    echo "runAPSIM2ACMO.sh FAIL"
-#    exit 1
-#fi
 
 cd $THISDIR/result # cd ..
 
